@@ -6,7 +6,7 @@ public class TestObject : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        Debug.Log("프로그램 시작");
+        Debug.Log("프로그램 시작!!!");
         if (GameManager.Instance.CheckLive())
             Debug.Log("생성 호출 끝");
 	}
